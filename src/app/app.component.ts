@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
-// import { CollectionsComponent } from './collections/collections.component';
 // import { SneakersComponent} from './sneakers/sneakers.component';
 // import { NavBarComponent } from './nav-bar/nav-bar.component';
 
