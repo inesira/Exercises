@@ -4,9 +4,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class MuscleService {
+export class MenServiceService {
   
-  apiUrl = 'https://api.api-ninjas.com/v1/exercises?muscle=';
+  apiUrl = 'https://api.api-ninjas.com/v1/exercises?muscle=lats';
   constructor(private http: HttpClient) { }
 
   getConfig(){

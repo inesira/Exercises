@@ -6,7 +6,7 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
   standalone: true,
   imports: [NavBarComponent],
   templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+  styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
 

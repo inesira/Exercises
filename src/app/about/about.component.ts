@@ -6,7 +6,7 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
   standalone: true,
   imports: [NavBarComponent],
   templateUrl: './about.component.html',
-  styleUrl: './about.component.css'
+  styleUrl: './about.component.scss'
 })
 export class AboutComponent {
 

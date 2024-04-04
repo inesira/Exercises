@@ -34,19 +34,16 @@ import { MuscleService } from '../muscle.service';
   standalone: true,
   imports: [NavBarComponent, CommonModule],
   templateUrl: './collections.component.html',
-  styleUrl: './collections.component.css'
+  styleUrl: './collections.component.scss'
 })
 export class CollectionsComponent implements OnInit {
   muscles: any;
   constructor( private muscleService: MuscleService){ }
   
   ngOnInit(){
-    console.log('start of calling the api');
-
     this.muscleService.getConfig().subscribe((muscle): any => {
       this.muscles = muscle;
     })
-    console.log('fin de l appel de l api')
   }
 }
 

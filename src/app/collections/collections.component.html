@@ -1,39 +1,30 @@
 <!-- <p>collections works!</p> -->
 <app-nav-bar></app-nav-bar>
 <div class="container">
-    <h1>
-        Mes Donnees
-    </h1>
-    <!-- <div *ngFor="let muscle of muscles">
-        
-        <p><b>Name:</b> {{ muscle.name }} </p>
-        <p><b>Type:</b> {{ muscle.type }} </p>
-        <p><b>Muscle:</b> {{muscle.muscle}} </p>
-        <p><b>Equipment:</b> {{muscle.equipment}} </p>
-        <p><b>Difficulty:</b> {{muscle.difficulty}} </p>
-
+  <!-- <div class="col-md-8"> -->
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Muscle</th>
+        <th scope="col">Equipment</th>
+        <th scope="col">Difficulty</th>
+        <th scope="col">Instructions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let muscle of muscles">
+        <!-- <th scope="row"></th> -->
+        <td>{{  muscle.name }}</td>
+        <td>{{ muscle.type  }}</td>
+        <td>{{ muscle.muscle }}</td>
+        <td> {{muscle.equipment}} </td>
+        <td> {{muscle.difficulty}} </td>
+        <td> {{muscle.instructions}} </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- </div> -->
     
-    </div> -->
-    <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Type</th>
-            <!-- <th>Muscle</th> -->
-            <!-- <th>Equipment</th>
-            <th>Difficulty</th>
-            <th>Instructions</th> -->
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let muscle of muscles">
-            <td>{{  muscle.name }}</td>
-            <td>{{ muscle.type  }}</td>
-            <!-- <td>{{ muscle.muscle }}</td> -->
-            <!-- <td> {{muscle.equipment}} </td>
-            <td> {{muscle.difficulty}} </td>
-            <td> {{muscle.Instructions}} </td> -->
-          </tr>
-        </tbody>
-      </table>
 </div>
