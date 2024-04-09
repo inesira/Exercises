@@ -1,2 +1,27 @@
 <!-- <p>contact works!</p> -->
 <app-nav-bar></app-nav-bar>
+<div class="container">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Muscle</th>
+        <th scope="col">Equipment</th>
+        <th scope="col">Difficulty</th>
+        <th scope="col">Instructions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let muscle of muscles">
+        <td>{{  muscle.name }}</td>
+        <td>{{ muscle.type  }}</td>
+        <td>{{ muscle.muscle }}</td>
+        <td> {{muscle.equipment}} </td>
+        <td> {{muscle.difficulty}} </td>
+        <td> {{muscle.instructions}} </td>
+      </tr>
+    </tbody>
+  </table>
+    
+</div>

@@ -14,6 +14,7 @@ export const routes: Routes = [
     {path: 'women', component: WomenComponent},
     {path: 'about', component: AboutComponent},
     {path: 'contact', component: ContactComponent},
+    {path: 'men/:muscle', component: CollectionsComponent},
     {path: 'sneakers', component: SneakersComponent},
     {path: '', redirectTo: '/sneakers', pathMatch: 'full'}
 ];

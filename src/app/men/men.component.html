@@ -1,36 +1,160 @@
-<!-- <p>men works!</p> -->
+
+  <!-- <ol>
+    <li *ngFor="let muscle of muscles">
+      <a routerLink="/men/{{ muscle.muscle }}">{{ muscle.muscle }}</a>
+    </li>
+  </ol> -->
+
 <app-nav-bar></app-nav-bar>
+<!-- <div class="container">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Muscle</th>
+        <th scope="col">Equipment</th>
+        <th scope="col">Difficulty</th>
+        <th scope="col">Instructions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let muscle of muscles">
+        <td>{{  muscle.name }}</td>
+        <td>{{ muscle.type  }}</td>
+        <td>{{ muscle.muscle }}</td>
+        <td> {{muscle.equipment}} </td>
+        <td> {{muscle.difficulty}} </td>
+        <td> {{muscle.instructions}} </td>
+      </tr>
+    </tbody>
+  </table>
+    
+</div> -->
 <div class="container">
-    <!-- <h1>
-        Les Donnees recuperees a partir de l'ApiNinjas 
-    </h1> -->
-    <div class="container">
-        <!-- <div class="col-md-8"> -->
-        <table class="table table-bordered table-striped">
-          <thead>
-            <tr>
-              <th scope="col">Name</th>
-              <th scope="col">Type</th>
-              <th scope="col">Muscle</th>
-              <th scope="col">Equipment</th>
-              <th scope="col">Difficulty</th>
-              <th scope="col">Instructions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let muscle of muscles">
-              <!-- <th scope="row"></th> -->
-              <td>{{  muscle.name }}</td>
-              <td>{{ muscle.type  }}</td>
-              <td>{{ muscle.muscle }}</td>
-              <td> {{muscle.equipment}} </td>
-              <td> {{muscle.difficulty}} </td>
-              <td> {{muscle.instructions}} </td>
-            </tr>
-          </tbody>
-        </table>
-        <!-- </div> -->
-          
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes33.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $200</h6>
+        </div>
       </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes35.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $200</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes31.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $200</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes38.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $200</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $200</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $135</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $215</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes20.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $100</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes19.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $100</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes16.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $200</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes18.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $150</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/images/shoes/shoes15.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SNEAKER COMPANY</h5>
+          <p class="card-text">Tehse low-profile Sneakers are you perfect casual wear xompamion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6>Price: $150</h6>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
 

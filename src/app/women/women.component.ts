@@ -8,6 +8,14 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
   templateUrl: './women.component.html',
   styleUrl: './women.component.scss'
 })
-export class WomenComponent {
+export class WomenComponent{
+  // muscles: any;
+  // constructor( private muscleService: MuscleService){ }
+  
+  // ngOnInit(){
+  //   this.muscleService.getConfig().subscribe((muscle): any => {
+  //     this.muscles = muscle;
+  //   })
+  // }
 
 }
